@@ -2,7 +2,7 @@
 ## 1. Overview
 [Quartz](http://www.quartz-scheduler.org/) is an open-source job-scheduling framework written entirely in Java and designed for use in both J2SE and J2EE applications. It offers excellent flexibility without sacrificing simplicity.
 You can create complex schedules for executing any job. Examples are e.g. tasks that run daily, every other Friday at 7:30 p.m. or only on the last day of every month.
-- Link get SQL to create table quartz: (quartz/src/main/resources/org/quartz/impl/jdbcjobstore)[https://github.com/quartz-scheduler/quartz]
+- Link get SQL to create table quartz: [quartz/src/main/resources/org/quartz/impl/jdbcjobstore](https://github.com/quartz-scheduler/quartz)
 ## 2. The Quartz API
 The heart of the framework is the Scheduler. It is responsible for managing the runtime environment for our application.
 To ensure scalability, Quartz is based on a multi-threaded architecture. When started, the framework initializes a set of worker threads that the Scheduler uses to execute Jobs.
